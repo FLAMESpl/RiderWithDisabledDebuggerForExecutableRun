@@ -1,0 +1,13 @@
+﻿{
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "RiderWithDisabledDebuggerForExecutableRun": {
+      "commandName": "Executable",
+      "executablePath": "pwsh",
+      "commandLineArgs": "-NoExit -Command Import-Module ./RiderWithDisabledDebuggerForExecutableRun.dll",
+      "environmentVariables": {
+
+      }
+    }
+  }
+}
